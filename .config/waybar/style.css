@@ -1,0 +1,214 @@
+/* ~/.config/waybar/style.css */
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono Nerd Font";
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent; /* Прозрачный фон для самого waybar */
+    color: #ffffff;
+    margin: 0px 15px; /* Отступы от левого и правого края экрана */
+}
+
+/* ============ ОБЩИЙ КОНТЕЙНЕР ДЛЯ ВСЕХ МОДУЛЕЙ ============ */
+#waybar-container {
+    background: rgba(50, 50, 50, 0.9); /* Серый фон контейнера */
+    border: 2px solid #4a4a4a;
+    border-radius: 12px;
+    padding: 0 10px;
+    margin: 5px 0;
+}
+
+/* ============ ГРУППЫ МОДУЛЕЙ ВНУТРИ КОНТЕЙНЕРА ============ */
+#modules-left,
+#modules-center,
+#modules-right {
+    background: transparent;
+    margin: 0 2px;
+}
+
+/* ============ РАБОЧИЕ ПРОСТРАНСТВА ============ */
+#workspaces button {
+    padding: 0 10px;
+    background: transparent;
+    color: #888888;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    margin: 4px 2px;
+    transition: all 0.3s ease;
+}
+
+#workspaces button.active {
+    background: linear-gradient(45deg, #10b981, #059669);
+    color: #ffffff;
+    border-color: #10b981;
+}
+
+#workspaces button:hover {
+    background: #10b981;
+    border-color: #10b981;
+    color: #ffffff;
+}
+
+/* ============ ЛАУНЧЕР ============ */
+#custom-launcher {
+    background: linear-gradient(45deg, #10b981, #059669);
+    color: #ffffff;
+    padding: 0 12px;
+    border-radius: 6px;
+    margin: 4px 2px;
+    font-size: 16px;
+}
+
+/* ============ ЯЗЫК ============ */
+#hyprland-language {
+    background: #10b981;
+    color: #ffffff;
+    padding: 0 12px;
+    border-radius: 6px;
+    margin: 4px 2px;
+}
+
+/* ============ ТРЕЙ ============ */
+#tray {
+    background: rgba(16, 185, 129, 0.8);
+    padding: 0 10px;
+    border-radius: 6px;
+    margin: 4px 2px;
+}
+
+/* ============ ЧАСЫ ============ */
+#clock {
+    background: #10b981;
+    color: #ffffff;
+    padding: 0 15px;
+    border-radius: 6px;
+    margin: 4px 2px;
+}
+
+/* ============ ПОГОДА ============ */
+#custom-weather {
+    background: #059669;
+    color: #ffffff;
+    padding: 0 12px;
+    border-radius: 6px;
+    margin: 4px 2px;
+}
+
+/* ============ СИСТЕМНЫЕ МОДУЛИ - ЗЕЛЁНАЯ ТЕМА ============ */
+
+/* Аудио */
+#pulseaudio {
+    background: #10b981;
+    color: #ffffff;
+    padding: 0 12px;
+    border-radius: 6px;
+    margin: 4px 2px;
+}
+
+#pulseaudio.muted {
+    background: #ef4444;
+    color: #ffffff;
+}
+
+/* Сеть */
+#network {
+    background: #059669;
+    color: #ffffff;
+    padding: 0 12px;
+    border-radius: 6px;
+    margin: 4px 2px;
+}
+
+#network.disconnected {
+    background: #ef4444;
+}
+
+/* Процессор */
+#cpu {
+    background: #047857;
+    color: #ffffff;
+    padding: 0 12px;
+    border-radius: 6px;
+    margin: 4px 2px;
+}
+
+/* Память */
+#memory {
+    background: #065f46;
+    color: #ffffff;
+    padding: 0 12px;
+    border-radius: 6px;
+    margin: 4px 2px;
+}
+
+/* Батарея */
+#battery {
+    background: #10b981;
+    color: #ffffff;
+    padding: 0 12px;
+    border-radius: 6px;
+    margin: 4px 2px;
+}
+
+#battery.charging {
+    background: #f59e0b;
+}
+
+#battery.warning:not(.charging) {
+    background: #f59e0b;
+}
+
+#battery.critical:not(.charging) {
+    background: #ef4444;
+}
+
+/* Кнопка питания */
+#custom-power {
+    background: #dc2626;
+    color: #ffffff;
+    padding: 0 12px;
+    border-radius: 6px;
+    margin: 4px 2px;
+    font-size: 16px;
+}
+
+/* ============ АНИМАЦИИ ПРИ НАВЕДЕНИИ ============ */
+#pulseaudio:hover,
+#network:hover,
+#cpu:hover,
+#memory:hover,
+#battery:hover,
+#custom-power:hover,
+#clock:hover,
+#custom-weather:hover,
+#custom-launcher:hover,
+#tray:hover,
+#hyprland-language:hover {
+    background: #ffffff;
+    color: #059669;
+    transition: all 0.3s ease;
+}
+
+/* ============ ДОПОЛНИТЕЛЬНЫЕ СТИЛИ ============ */
+tooltip {
+    background: rgba(50, 50, 50, 0.9);
+    border: 1px solid #10b981;
+    border-radius: 8px;
+}
+
+tooltip label {
+    color: #ffffff;
+}
+
+/* Убираем границы между модулями внутри групп */
+#modules-left > widget > *,
+#modules-center > widget > *,
+#modules-right > widget > * {
+    margin: 0 1px;
+}
