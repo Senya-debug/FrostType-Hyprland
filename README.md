@@ -2,6 +2,7 @@
 
 My first hyprland rice, Created on Arch linux, it will be gradually updated and new features will be added.
 
+<img src="preview/hyprpreview.png">
 
 <h2 align="center">INSTALATION</h2>
 
