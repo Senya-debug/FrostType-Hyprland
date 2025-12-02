@@ -1,4 +1,4 @@
-<h1 align="center">INSTALATION</h1>
+<h1 align="center">FROSTTYPE-HYPRLAND</h1>
 
 My first hyprland rice, Created on Arch linux, it will be gradually updated and new features will be added.
 
