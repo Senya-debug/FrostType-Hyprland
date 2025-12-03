@@ -6,7 +6,12 @@ My first hyprland rice, Created on Arch linux, it will be gradually updated and 
 
 <h2 align="center">💻INSTALATION💻</h2>
 
-Just copy files from .config to ~/.config Maybe i create auto install
+```bash
+git clone https://github.com/Senya-debug/FrostType-Hyprland.git
+cd FrostType-Hyprland
+chmod +x install.sh
+./hui.sh
+```
 
 ⚠️You need⚠️:
 <a href="https://github.com/hyprwm/Hyprland?ysclid=mioundt0ta466069158">Hyprland</a>
