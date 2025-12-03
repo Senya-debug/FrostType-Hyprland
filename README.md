@@ -8,7 +8,7 @@ My first hyprland rice, Created on Arch linux, it will be gradually updated and 
 
 Just copy files from .config to ~/.config Maybe i create auto install
 
-You need:
+⚠️You need⚠️:
 <a href="https://github.com/hyprwm/Hyprland?ysclid=mioundt0ta466069158">Hyprland</a>
 <a href="https://github.com/hyprwm/hyprlock?ysclid=miouqfnrjg741351343">Hyprlock</a>
 <a href="https://github.com/Gustash/Hyprshot?ysclid=miour04lyc630453676">Hyprshot</a>
