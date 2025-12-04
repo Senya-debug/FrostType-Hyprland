@@ -14,6 +14,7 @@ PROGRAMS I USE:
     <a href="https://github.com/SimplyCEO/wofi?ysclid=miout72lds800440015">Wofi</a>
     <a href="https://github.com/kovidgoyal/kitty?ysclid=mioutn31bm67122232">Kitty</a>
     <a href="https://github.com/davatorium/rofi?ysclid=miovnyek40317642104">Rofi</a>
+    <a href="https://github.com/davatorium/rofi?ysclid=miovnyek40317642104">Zsh</a>
 </ol>
 
 <h2 align="center">💻INSTALATION💻</h2>
@@ -24,6 +25,7 @@ cd FrostType-Hyprland
 chmod +x install.sh
 ./hui.sh
 ```
+for change city for weather edit `.config/waybar/config.jsonc` in 76 line
 
 <h2 align="center">📜CREDITS📜</h2>
 <a href="https://github.com/JaKooLit/Hyprland-Dots">wallpaper</a>
