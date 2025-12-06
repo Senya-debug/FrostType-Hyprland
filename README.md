@@ -23,7 +23,7 @@ PROGRAMS I USE:
 git clone https://github.com/Senya-debug/FrostType-Hyprland.git
 cd FrostType-Hyprland
 chmod +x install.sh
-./hui.sh
+./install.sh
 ```
 for change city for weather edit `.config/waybar/config.jsonc` in 76 line
 
