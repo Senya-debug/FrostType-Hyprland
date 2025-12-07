@@ -14,7 +14,8 @@ PROGRAMS I USE:
     <a href="https://github.com/SimplyCEO/wofi?ysclid=miout72lds800440015">Wofi</a>
     <a href="https://github.com/kovidgoyal/kitty?ysclid=mioutn31bm67122232">Kitty</a>
     <a href="https://github.com/davatorium/rofi?ysclid=miovnyek40317642104">Rofi</a>
-    <a href="https://github.com/davatorium/rofi?ysclid=miovnyek40317642104">Zsh</a>
+    <a href="https://github.com/ohmyzsh/ohmyzsh">Oh-My-Zsh</a>
+    <a href="https://github.com/romkatv/powerlevel10k">Zsh theme: powerlevel10k</a>
 </ol>
 
 <h2 align="center">💻INSTALATION💻</h2>
